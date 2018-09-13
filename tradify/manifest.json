@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Context menu: Translate selection",
+    "description": "Add a context menu option to translate the text selected previously.",
+    "version": "1.1",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/context-menu-copy-link-with-types",
+	
+    "background": {
+        "scripts": ["lib/jquery-3.1.1.min.js", "tradify.js"]
+    },
+	
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "clipboardWrite"
+    ]
+}

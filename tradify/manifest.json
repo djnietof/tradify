@@ -3,7 +3,7 @@
     "name": "Context menu: Translate selection",
     "description": "Add a context menu option to translate the text selected previously.",
     "version": "1.1",
-    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/context-menu-copy-link-with-types",
+    "homepage_url": "https://github.com/djnietof/tradify/blob/master/tradify/",
 	
     "background": {
         "scripts": ["lib/jquery-3.1.1.min.js", "tradify.js"]
